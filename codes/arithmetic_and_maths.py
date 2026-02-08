@@ -14,9 +14,6 @@ print(result4)
 print(result5)
 
 
-.................................................................................
-
-
 import math
 x=9
 print(math.pi) #math.pi gives the value of pi
@@ -24,9 +21,8 @@ print(math.e) #math.e gives the value of exponential
 result=math.sqrt(x) # math.sqrt(value) gives the square root value of given value
 print (result)
 result=math.ceil(x) #math.ceil gives the ceiling value. ex: 3.12 will be 4
-result=math.floor() #math.floor gives the flooring value. ex: 3.12 will be 3
+result=math.floor(x) #math.floor gives the flooring value. ex: 3.12 will be 3
 
-................................................................................. 
 
 
 # practice 1
@@ -36,7 +32,6 @@ radius=float(input("enter the value of radius:"))
 c=2*math.pi*radius
 print(f"the value of the circumference is {round(c , 2)}")
 
-................................................................................. 
 
 
 # practice 2
@@ -45,8 +40,6 @@ import math
 radius=float(input("enter the value of radius:"))
 area=math.pi*pow(radius,2)
 print(f"the value of the area is {round(area , 2)}")
-
-................................................................................. 
 
 
 # practice 3

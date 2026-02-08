@@ -48,8 +48,8 @@ while is_running:
         print(f"please select number between {lowest_num} to {highest_num}")
 
 
---------------------practice 2-------------------
-rock paper scissors game
+# --------------------practice 2-------------------
+# rock paper scissors game
 
 import random
 

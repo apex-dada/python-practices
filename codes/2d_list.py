@@ -1,4 +1,4 @@
-2d list=[] [] [] is a lists inside a list
+# 2d list=[] [] [] is a lists inside a list
 
 fruits=["fr1" ,"fr2","fr3","fr4"]
 vegetables=["vg1","vg2","vg3"]

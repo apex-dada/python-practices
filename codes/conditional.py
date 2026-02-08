@@ -1,11 +1,10 @@
 #conditional statement
 #shortcut to add if else condition to print with a certain condition 
--------------------------------
+
 num=5
 print("hello" if num<5 else "not hello")
 print ("positive" if num>0 and num<5 else ("positive+5" if num>5 and num<10  else "dont know"))
 
------------------------------------------
 
 a=4
 b=9
@@ -14,5 +13,3 @@ min_num=a if a<b else b
 print(max_num)
 print(min_num)
 
-
---------------------------------

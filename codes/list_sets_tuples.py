@@ -46,7 +46,7 @@ print(fruits_set)
 # print(fruits.index("a")) #index("value") prints/finds the index nmumber for the given value
 print(fruits.count("a")) #.count("value") helps to count the how many times the value is in the collection
 
-.....................exercise.....................
+
 #shopping cart programs with 1d approch
 foods=[]
 prices=[]

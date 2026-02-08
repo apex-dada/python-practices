@@ -19,3 +19,4 @@ print(credit_no[::-1]) #now it will start printing from the -1 index for each in
 print(credit_no[-4:][::-1]) #now it will print only last 4 indexes in reverse
 
 print(credit_no[-6::-1]) #it will start printing from -6 index to the starting index, and it will print in backward for each step cause the given step is -1
+print(credit_no[-1:-7:-1]) #it will start printing from -1 index to -7 index, and it will print in backward for each step cause the given step is -1

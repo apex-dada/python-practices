@@ -13,7 +13,6 @@ elif operator=="/":
 else:
     print("answer the questions correctly.Thank You+")
 
-___________________________________________________________________________________
 
 #temperature conversion program
 unit=input("is this temperaature in celsius or fahrenheit (c/f):")

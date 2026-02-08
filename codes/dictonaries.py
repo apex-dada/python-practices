@@ -51,9 +51,7 @@ print(item)
 #or we can write it in better way without the bracket and colons
 for keys,values in captital.items():
     print(f"{keys}:{values}")
-
-
-*********************************practice**********************************
+#______________________exercise_________________________
 
 
 #food menu program with dictionary
