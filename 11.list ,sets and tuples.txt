@@ -1,0 +1,68 @@
+#collection= single "variable user to store mulriple values
+
+#list=[] order and changable . duplicates are accepted
+# set={} unordered and immutable/unchagable.  duplicates are not accepted. can add or remove
+#tuple=() ordered and unchangeable. duplicates ok. faster
+
+fruits=["a", "b" , "c","d"] #for list
+fruits_set={"a", "b" , "c","d"}
+#we cannot use indexing for set cause its unordered
+fruits_tuple=("a", "b" , "c","d")
+print(fruits_set)
+print(fruits_tuple)
+
+fruits_set.pop()      
+print(fruits_set)
+
+
+# print(fruits[0]) #printing  a value
+# print(fruits[0:2]) #prinitng multiple values
+# print(fruits[::2]) #printing values with steps
+# print(fruits[::-1]) #printing values in reverse with steps
+
+#printing with for loop
+# for fruit in fruits:
+#      print(fruit,end=" ")
+#
+# for x in fruits[0:1]:
+#      print(x)
+
+#********methods for collection************
+#print(dir(fruits))
+# print(len(fruits)) #finding the length of collection with len()
+#
+# print("c" in fruits) #finding if the value available in the collection. answers in bool
+# print("apple" in fruits) #finding if the value available in the collection.answers in bool
+#
+# fruits[0]= "pineapple" #changing the value of a index.
+# print(fruits,end=" ")
+
+# fruits.append("ok") #append means add. with .append method we can add elements in last index
+# fruits.remove("a" ) #.remove("value") .remove helps to remove an item from the collection
+# fruits.insert(0,"apple") #.insert(index,"value") we can insert a value to the collection with our preferred index
+# fruits.sort() #sorting in alphabetical order
+# fruits.reverse() #reverse the collection
+# fruits.clear() #.clear() clears the collection. the elements in list will be removed
+# print(fruits.index("a")) #index("value") prints/finds the index nmumber for the given value
+print(fruits.count("a")) #.count("value") helps to count the how many times the value is in the collection
+
+.....................exercise.....................
+#shopping cart programs with 1d approch
+foods=[]
+prices=[]
+total=0
+while True:
+    food=input("enter the food to buy(q to exit):")
+    if food.lower()=="q":
+        break
+    else:
+        price=float(input("enter the price:$"))
+        prices.append(price)
+        foods.append(food)
+
+for all_food in foods:
+    print(all_food,end=" ")
+for allPrice in prices:
+    total +=allPrice
+
+print(f"the total is :{total}")

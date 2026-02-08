@@ -1,0 +1,21 @@
+#string indexing
+#indexing=accessing elements in a sequence using []. where[ start : end : step] [strats (from which index we want the string to start.
+#     the start is inclusive, means it will start the count from 0 like array) : end (where the string count will end. it is exclusive  ,means it
+#     will start counting from 1 , not like array) : step ( it will print every step charecter is given )
+
+credit_no="4000-0566-5566-5556"
+print(credit_no[0])
+print(credit_no[0:4])
+print(credit_no[:7])
+print(credit_no[5:9])
+print(credit_no[-1])
+print(credit_no[-1])
+print(credit_no[::3]) #this will print every 3 no string from the given string. if we left the start and ending index empty then the machine will take the full string
+print(credit_no[-4:]) #this will print the last 4 characters from the given string
+#________________________________
+
+#reverse a string
+print(credit_no[::-1]) #now it will start printing from the -1 index for each index
+print(credit_no[-4:][::-1]) #now it will print only last 4 indexes in reverse
+
+print(credit_no[-6::-1]) #it will start printing from -6 index to the starting index, and it will print in backward for each step cause the given step is -1

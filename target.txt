@@ -1,0 +1,8 @@
+| Learn this                                                     | Why                          |
+| -------------------------------------------------------------- | ---------------------------- |
+| **Math + ML theory (linear algebra, stats, gradient descent)** | Foundational, timeless       |
+| **Practical ML (scikit-learn, TensorFlow, PyTorch)**           | Still relevant               |
+| **ML deployment (Flask, FastAPI, Docker, MLflow)**             | Highly in-demand             |
+| **Data engineering (Pandas, SQL, ETL, Airflow)**               | Essential for ML pipelines   |
+| **Cloud ML (AWS/GCP/Azure)**                                   | Real-world relevance         |
+| **MLOps / DevOps knowledge**                                   | Huge demand in enterprise AI |

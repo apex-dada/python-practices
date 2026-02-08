@@ -1,0 +1,28 @@
+#python calculator
+operator=input("enter the operator you want to use(+,-,*,/):")
+a=float(input("enter the first value:"))
+b=float(input("enter the second value:"))
+if operator=="+":
+    print(f"the answer is:{a+b}")
+elif operator=="-":
+    print(f"the answer is:{a - b}")
+elif operator=="*":
+    print(f"the answer is:{a * b}")
+elif operator=="/":
+    print(f"the answer is:{a / b}")
+else:
+    print("answer the questions correctly.Thank You+")
+
+___________________________________________________________________________________
+
+#temperature conversion program
+unit=input("is this temperaature in celsius or fahrenheit (c/f):")
+temp=float(input("enter the temperature: "))
+if unit=="c":
+    temp=round((9 * temp) / 5 + 32 ,1)
+    print(f"the temperature is {temp}°F")
+elif unit=="f":
+    temp=round((temp-32)*5/9,2)
+    print(f"the temperature is {temp}°C")
+else:
+    print("enter the values correctly.")

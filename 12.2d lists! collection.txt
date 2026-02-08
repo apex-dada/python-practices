@@ -1,0 +1,58 @@
+2d list=[] [] [] is a lists inside a list
+
+fruits=["fr1" ,"fr2","fr3","fr4"]
+vegetables=["vg1","vg2","vg3"]
+meats=["mt1","mt2","mt3"]
+
+groceries=[fruits,vegetables,meats]
+
+#print(groceries[1][0]) #printing from a 2d list requires both column and rows index number similar to arrays.if we only give a columns or rows value then it will print the full row or column
+
+for collection in groceries:
+    for food in collection:
+        print (food, end=" ")
+    print()
+
+num_pad=(("1" , "2" , "3"),   #here we created a multiple tuples in a tuple..we used tuple insted of list because tuples are faster than list and tuples are unchangeable. here in numberpad we dont need to change our values. we didn't used sets because sets are not ordered
+         ("4","5","6"),
+         ("7","8","9"),("*", "0" , "#" ) )
+for nums in num_pad:
+    for num in nums:
+        print(num,end=" ")
+    print()
+
+___________________practice_____________________
+
+#python quiz game
+questions=("What is the chemical symbol for gold?",
+           "Which country has the longest coastline in the world?",
+           "Who was the first President of the United States?",
+           "Who wrote the play Romeo and Juliet?")
+
+options= (("a.Au","b.Ag","c.Gd","d.Go"),
+          ("a.Australia", "b.Russia", "c.Canada", "d.Indonesia"),
+          ("a.Thomas Jefferson", "b.George Washington", "c.Abraham Lincoln", "d.John Adams"),
+          ("a.Jane Austen", "b.William Shakespeare", "c.Charles Dickens", "d.Mark Twain"))
+answers=("a","c","b","b")
+guesses=[]
+score=0
+question_num=0
+
+for question in questions:
+    print("------------------------")
+    print(question)
+    for option in options[question_num]:
+        print(option)
+    print()
+    guess=input("enter your answer:").lower()
+    guesses.append(guess)
+    if guess==answers[question_num]:
+        score+=1
+        print("correct")
+    else:
+        print("incorrect")
+        print(f"the correct answer is :{answers[question_num]}")
+
+    question_num += 1
+print("\n ")
+print(f"You Answered {score} many correct out of {question_num}")
